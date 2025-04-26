@@ -3,6 +3,8 @@
 ---
 
 ## What I Built
+Here's another game I've made, and it's a simpler one.
+
 This is a classic memory game where a robot shuffles your cards. Each card features the name of an Alibaba Cloud service, such as 
 - ECS,
 - Function Compute
