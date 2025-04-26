@@ -1,0 +1,54 @@
+.gameOver {
+    
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+
+    p {
+        font-size: 24px;
+    }
+
+    .buttons {
+        margin: 25px;
+        padding: 12px;
+        background-color: #333333;
+        border: 1px solid #666666;
+        box-shadow: 2px 2px 5px #999999;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    label {
+        font-weight: bold;
+        font-size: 24px;
+        margin: 24px 0;
+
+        input {
+            
+            margin: 0 0 0 12px;
+            padding: 0px;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid white;
+            color: white;
+            font-size: 24px;
+
+            &:focus {
+                outline: none;
+                border: none;
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+
+    .error {
+        border: 1px solid red;
+        border-radius: 6px;
+        color: red;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 6px 24px;
+        padding: 12px;
+    }
+}

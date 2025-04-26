@@ -1,0 +1,73 @@
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  width: 100px;
+  height: 120px;
+  margin: 12px 0;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: width 0.5s; /* transition effect */
+
+    &.back {
+      background-image: url("/public/images/robocard.png");
+      background-size: cover;
+      background-position: center;
+      height: 120px;
+      width: 80px;
+    }
+
+    &.front {
+      background-image: url("/public/images/robocard-front.png");
+      background-size: cover;
+      background-position: center;
+      height: 120px;
+      width: 80px;
+    }
+
+    &.disabled {
+      cursor: not-allowed;
+      opacity: 0.2;
+    }
+
+    p {
+      display: flex;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 14px;
+      font-weight: 800;
+      color: coral;
+    }
+
+    &.animate {
+      animation: flip 1s;
+    }
+  }
+}
+
+.flip {
+  width: 0; /* width goes to 0 */
+  overflow: hidden; /* hide content during animation */
+}
+
+@keyframes flip {
+  0% {
+    width: 80px;
+    margin-left: 0;
+    background-image: url("/public/images/robocard-front.png");
+  }
+  50% {
+    width: 0;
+    margin-left: 40px;
+  }
+  100% {
+    width: 80px;
+    margin-left: 0;
+    background-image: url("/public/images/robocard.png");
+  }
+}
