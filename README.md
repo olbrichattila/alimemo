@@ -21,12 +21,11 @@ Enjoy!
 
 ### Screenshots 
 
-[Screenshot intro](https://raw.githubusercontent.com/olbrichattila/alimemo/refs/heads/main/screenshots/intro.png)
+![Screenshot intro](https://raw.githubusercontent.com/olbrichattila/alimemo/refs/heads/main/screenshots/intro.png)
 
 ---
 
-[Screenshot game](https://raw.githubusercontent.com/olbrichattila/alimemo/refs/heads/main/screenshots/game.png)
-
+![Screenshot game](https://raw.githubusercontent.com/olbrichattila/alimemo/refs/heads/main/screenshots/game.png)
 
 ---
 
