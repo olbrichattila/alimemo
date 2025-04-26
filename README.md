@@ -19,13 +19,23 @@ Enjoy!
 
 ---
 
+### Screenshots 
+
+[Screenshot intro](https://raw.githubusercontent.com/olbrichattila/alimemo/refs/heads/main/screenshots/intro.png)
+
+---
+
+[Screenshot game](https://raw.githubusercontent.com/olbrichattila/alimemo/refs/heads/main/screenshots/game.png)
+
+
+---
+
 ## Demo
 [https://gamechallange.attilaolbrich.co.uk/](https://gamechallange.attilaolbrich.co.uk/)
 
 ---
 
 ## Alibaba Cloud Services Implementation
-<!-- Provide a detailed breakdown of each Alibaba Cloud service you utilized, why you chose it, how you integrated it into your game, and your experience working with it. Be specific about the benefits and any challenges you encountered with each service. -->
 
 After registering to Alibaba Cloud using the provided link, I unfortunately did not receive the free trial credit, even though this was my first time trying Alibaba Cloud. Despite this, I decided to purchase the necessary services myself, and, due to budget considerations, I opted for a simple and low-cost setup.
 
