@@ -32,6 +32,10 @@ Enjoy!
 ## Demo
 [https://gamechallange.attilaolbrich.co.uk/](https://gamechallange.attilaolbrich.co.uk/)
 
+Source code:
+
+[https://github.com/olbrichattila/alimemo](https://github.com/olbrichattila/alimemo)
+
 ---
 
 ## Alibaba Cloud Services Implementation
